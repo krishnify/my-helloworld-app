@@ -7,7 +7,7 @@ st.title('My New Hello World App')
 st.write('Hello world!')
 
 df = pd.DataFrame(np.random.randn(15, 3), columns=(["A", "B", "C"]))
-my_data_element = st.line_chart(df)
+my_data_element = st.bar_chart(df)
 
 for tick in range(10):
     time.sleep(1)
