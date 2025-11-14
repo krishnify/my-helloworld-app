@@ -17,7 +17,7 @@ data_df = pd.DataFrame(
         ],
     }
 )
-st.dataframe(data)
+st.dataframe(data_df)
 st.data_editor(
     data_df,
     column_config={
