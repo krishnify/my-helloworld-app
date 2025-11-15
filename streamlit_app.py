@@ -13,6 +13,5 @@ for tick in range(10):
     time.sleep(1)
     add_df = pd.DataFrame(np.random.randn(1, 3), columns=(["A", "B", "C"]))
     my_data_element.add_rows(add_df)
-    my_data_element.delete_rows(df[:9])
 
 st.button("Regenerate")
